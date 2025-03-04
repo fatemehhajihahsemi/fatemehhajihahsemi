@@ -143,7 +143,8 @@
         <mxCell id="-4JqRAIje_STTefDtWn_-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;jumpStyle=arc;" edge="1" parent="1" source="-4JqRAIje_STTefDtWn_-251" target="-4JqRAIje_STTefDtWn_-276">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-160" y="250" />
+              <mxPoint x="-425" y="260" />
+              <mxPoint x="-160" y="260" />
               <mxPoint x="-160" y="809" />
             </Array>
           </mxGeometry>
@@ -151,20 +152,23 @@
         <mxCell id="-4JqRAIje_STTefDtWn_-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;jumpStyle=arc;" edge="1" parent="1" source="-4JqRAIje_STTefDtWn_-251" target="-4JqRAIje_STTefDtWn_-294">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-160" y="250" />
-              <mxPoint x="-160" y="1339" />
+              <mxPoint x="-425" y="240" />
+              <mxPoint x="-150" y="240" />
+              <mxPoint x="-150" y="1339" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-4JqRAIje_STTefDtWn_-251" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-440" y="220" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-4JqRAIje_STTefDtWn_-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;jumpStyle=arc;" edge="1" parent="1" source="-4JqRAIje_STTefDtWn_-251" target="-4JqRAIje_STTefDtWn_-215">
+        <mxCell id="-4JqRAIje_STTefDtWn_-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;jumpStyle=arc;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-160" y="250" />
-              <mxPoint x="-160" y="282" />
+              <mxPoint x="-165" y="278.94" />
+              <mxPoint x="-165" y="310.94" />
             </Array>
+            <mxPoint x="-410" y="279" as="sourcePoint" />
+            <mxPoint x="-40.94999999999959" y="311.0439999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-4JqRAIje_STTefDtWn_-253" value="SmartThermostat" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -187,12 +191,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-4JqRAIje_STTefDtWn_-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;jumpStyle=arc;" edge="1" parent="1" source="-4JqRAIje_STTefDtWn_-288" target="-4JqRAIje_STTefDtWn_-251">
+        <mxCell id="-4JqRAIje_STTefDtWn_-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;jumpStyle=arc;" edge="1" parent="1" target="-4JqRAIje_STTefDtWn_-251">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-140" y="1067" />
-              <mxPoint x="-140" y="250" />
+              <mxPoint x="-140" y="1087" />
+              <mxPoint x="-140" y="210" />
+              <mxPoint x="-470" y="210" />
+              <mxPoint x="-470" y="250" />
             </Array>
+            <mxPoint x="-30" y="1086.7999999999997" as="sourcePoint" />
+            <mxPoint x="-425" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-4JqRAIje_STTefDtWn_-259" value="chiller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
